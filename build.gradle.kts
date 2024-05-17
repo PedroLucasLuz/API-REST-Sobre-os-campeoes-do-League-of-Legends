@@ -21,6 +21,10 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
+
+	// Open API (Swagger) https://springdoc.org/#getting-started
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0")
+
 	runtimeOnly("com.h2database:h2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
